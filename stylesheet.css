@@ -1,0 +1,364 @@
+*{
+    margin:  0;
+    padding: 0;
+    font-family: Century Gothic;}
+header{
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 5px solid black;
+    background-color: rgb(245, 245, 245);
+    position: fixed;
+}
+.logo{
+    width: 4cm;
+    height: 4cm;
+    float: left;
+}
+#title{
+    color: rgb(32, 3, 70);
+    text-align: center;
+    font-size: 50px;
+    margin-right: 13%;
+    text-shadow: 5px 5px 15px rgb(32, 3, 70);
+}
+nav{
+    clear: both;
+    background-color: #010722;
+    padding: 15px;
+}
+.sm{
+    width: 0.7cm;
+    height: 0.65cm;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+.sm:hover{
+    margin: 1.5pt;
+    width: 0.8cm;
+    height: 0.75cm;
+}
+.social{
+    float: right;
+}
+ul{
+    list-style-type: none;
+    margin-left: 30%;
+}
+li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(6, 42, 247);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    color: rgb(247, 6, 235);
+    background-color: whitesmoke;
+    padding: 7px 25px;
+    border: 1px solid rgb(247, 6, 235);
+}
+.Active{
+    color: rgb(247, 6, 235);
+    background-color: whitesmoke;
+    padding: 7px 25px;
+    border: 1px solid rgb(247, 6, 235);
+}
+.heading{
+    text-align: center;
+    color: rgb(32, 3, 70);
+    font: 30px bold icon;
+}
+#Home{
+    padding-top: 25%;
+    border-bottom: 5px solid black;
+    background-image: linear-gradient(rgba(255, 255, 249, 0.267),rgba(168, 41, 179, 0.596) ), url("images/1.jpg");
+    height: 50vh;
+    background-size: inherit;
+    background-position: center;
+}
+.button{
+    margin-left: 39%;
+    padding-top: 3%;
+}
+.btn{
+    border: 1px solid rgb(6, 42, 247);
+    padding: 12px 25px;
+    color: rgb(4, 58, 167);
+    border-radius: 5pt;
+    text-decoration: none;
+}
+.btn:hover{
+    color: rgb(247, 6, 235);
+    padding: 14px 28px;
+    border: 1px solid rgb(247, 6, 235);
+    transition: 0.6s ease;
+    background-color: whitesmoke;
+}
+#About{
+    padding-top: 12%;
+    border-bottom: 5px solid black;
+    background-image: linear-gradient(rgba(255, 255, 249, 0.171), rgba(255, 255, 0, 0.712)), url("images/1.png");
+    height: 85vh;
+}
+.heading2{
+    margin-top: 5%;
+    text-align: center;
+    color: rgb(32, 3, 70);
+    font: 30px bold icon;
+}
+.sect1,.sect2,.sect3{
+    margin-left: 23%;
+    width: 90%;
+    margin-top: 1%;
+}
+#Art1,#Art2,#Art3{
+    width: 20%;
+    text-align: center;
+    border: 1px solid #fff;
+    float: left;
+    margin-right: 1%;
+}
+.img{
+    height: 200px;
+    width: 95%;
+    border-radius: 20px;
+    padding: 5px;
+}
+.div1{
+    padding: 5px;
+    background-color: orange;
+    font-size: 16px;
+}
+h3{
+    background-color: orange;
+    padding: 4px;
+}
+#OurTeam{
+    border-bottom: 5px solid black;
+    background-image: linear-gradient(rgba(255, 138, 216, 0.274), rgba(51, 255, 0, 0.712)), url("images/1.png");
+    height: 70vh;
+}
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+#text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+.abstract{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgb(0, 1, 61);
+    align-items: center;
+}
+.Timg{
+    height: 220px;
+    width: 150pt;
+    padding: 5px;
+}
+#member{
+    width: 170pt;
+    margin-top: 1.5%;
+    margin-left: 2%;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    float: left;
+}
+.Team{
+    margin-left: 11.5%;
+    background-size: cover;
+    align-content: stretch;
+}
+.sect{
+    background-size: cover;
+    align-content: stretch;
+    margin-left: 9cm;
+}
+.div2{
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    color: whitesmoke;
+}
+.he{
+    background-color: rgb(0, 255, 13);
+    padding: 5px;
+}
+#Services{
+    padding-top: 16%;
+    border-bottom: 5px solid black;
+    background-image: linear-gradient(rgba(255, 138, 216, 0.274), rgba(51, 255, 0, 0.712)), url("images/1.png");
+    height: 85vh;
+}
+.tab{margin-left: 9cm;}
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 16.22%;}  
+  .tablink:hover {background-color: #777;} 
+  .tabcontent {
+    color: white;
+    display: none;
+    height: 12cm;
+    align-self: center;
+    width: 65%;
+    margin-bottom: 2cm;} 
+  #design {background-color: rgba(255, 0, 0, 0.486);box-shadow: 5px 6px 15px red;}
+  #develop {background-color: rgba(0, 128, 0, 0.486);box-shadow: 5px 6px 15px green;}
+  #host {background-color: rgba(0, 0, 255, 0.486);box-shadow: 5px 6px 15px blue;}
+  #upgrade {background-color: rgba(255, 166, 0, 0.486);box-shadow: 5px 6px 15px orange;}
+  aside{
+    display: block;
+    width: 190pt;
+    align-content: center;
+  }
+  .box{
+    height: 240px;
+    width: 190pt;
+    border: solid 4px black;
+    margin-bottom: 0.4cm;
+    text-align: center;
+  }
+  .imgAside{
+    height: 200px;
+    width: 180pt;
+    padding: 5px;
+} 
+#left{
+    float: left;
+    margin-left: 0.6cm;
+}
+#right{
+    float: right;
+    margin-right: 0.8cm;
+}
+#Contact{
+    clear: both;
+    background-color: rgba(0, 0, 128, 0.466);
+    clear: both;
+    padding-top: 16%;
+    border-bottom: 5px solid black;
+}
+form{
+    width: 35%;
+    margin-left: 30%;
+}
+fieldset{
+    border: none;
+    width: 14.09cm;
+    box-shadow: 5px 6px 15px rgb(87, 0, 99);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+label{
+    margin-left: 5%;
+    color: white; font-size: 16px;
+}
+span{
+    color: red;
+}
+.textbox{
+    margin-left: 5%;
+    width: 6cm;
+    height: 0.8cm;
+    border: none;
+    border-bottom: solid 3px rgb(0, 204, 255);
+    color: white; font-size: 17px;
+    background-color: transparent;
+}
+.textbox:focus{
+    box-shadow: 3px 3px 10px rgb(0, 0, 0);
+    border-bottom: solid 3px rgba(17, 0, 255, 0.555);
+}
+label[name="Surname"]{margin-left: 30.9%;}
+label[name="how"]{margin-left: 29.3%;}
+label[name="mail"]{margin-left: 24.1%;}
+label[name="allow"]{color: white; font-size: 20px; font-weight: bold; margin-bottom: 0.2cm;}
+textarea{
+    margin-left:5%;
+    width: 12.8cm;
+    color: white;
+    font-size: 17px;
+    height: 4cm;
+    background-color: rgba(245, 245, 245, 0.466);
+    border: none;
+    border-bottom: solid 3px rgb(0, 204, 255);}
+textarea:focus{
+    box-shadow: 6px 6px 15px rgb(0, 0, 0);
+    border: solid 2px rgba(17, 0, 255, 0.555);
+}
+input[type="checkbox"]{width: 0.6cm; height: 0.6cm;}
+.btn2{
+    border: 2.5px solid rgb(0, 204, 255);
+    color: rgb(0, 204, 255);
+    padding: 14px 27px;
+    border-radius: 5pt;
+    background-color: rgba(245, 245, 245, 0.315);
+    align-self: center;
+}
+input[type="submit"]:hover{
+    color: rgb(0, 126, 0);
+    padding: 14px 28px;
+    border: 1px solid rgb(0, 126, 0);
+    transition: 0.6s ease;
+    background-color: rgba(245, 245, 245, 0.329);
+}
+input[type="reset"]:hover{
+    color: red;
+    padding: 14px 28px;
+    border: 1px solid red;
+    transition: 0.6s ease;
+    background-color: rgba(245, 245, 245, 0.329);
+}
+.submit{
+    margin-left: 34%;
+    padding-bottom: 0.5cm;
+}
+.banner{
+    padding: 15px 0px;
+    background-color: black;
+    width: 100%;
+    margin-top: 0.1cm;
+    margin-bottom: 0.1cm;
+}
+#entle{
+    color: rgb(32, 3, 70);
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 5px 5px 15px rgb(32, 3, 70);
+}
+#Address{
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 15px rgb(32, 3, 70);
+}
+footer{
+    clear: both;
+    color: #5b5e61; 
+    background-color: rgb(4, 1, 22);  
+    text-align: center; 
+    padding: 5px;
+}

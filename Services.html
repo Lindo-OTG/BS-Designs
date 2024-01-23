@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>BS Designs</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='stylesheet.css'>
+        <script src='script.js'></script>
+</head>
+<body>
+<!-- #region Header-->
+    <header id="myHeader">
+        <img class="logo" src="images/logo.png">
+    <section id="title"><h1>BS Designs</h1></section>
+    <section class="social">
+        <a href="#"><img class="sm" src="images/social icons/facebook.jpg"></a>
+        <a href="#"><img class="sm" src="images/social icons/twitter.jpg"></a>
+        <a href="#"><img class="sm" src="images/social icons/insta.png"></a>
+        <a href="#"><img class="sm" src="images/social icons/youtube.png"></a>
+        <a href="#"><img class="sm" src="images/social icons/linkedin.png"></a>
+    </section>
+<nav>
+    <section class="menu-bar">
+ <ul>
+    <li><a href="Index.html">Home</a></li>
+    <li><a href="About.html">About Us</a></li>
+    <li><a class="Active" href="#Services">Services</a></li>
+    <li><a href="Contact.html">Contact Us</a></li>
+ </ul>
+</section>
+</nav>
+</header>
+<!-- #endregion -->
+
+<!-- #region Services-->
+<section id="Services">    
+    <section class="heading"><h1>Services</h1></section> 
+    <aside id="left" class="aside">
+        <section class="box" onclick="openPage('design', this, 'rgba(255, 0, 0, 0.486)')">
+        <h3>Website Design</h3>
+        <img class="imgAside" src="images/design.png" alt="Design"/>
+        </section>
+        <section class="box" onclick="openPage('host', this, 'rgba(0, 0, 255, 0.486)')">
+        <h3>Hosting</h3>
+        <img class="imgAside" src="images/hosting.jpg" alt="Hosting"/>
+        </section>  
+    </aside>         
+    <section class="tab">
+        <button class="tablink" onclick="openPage('design', this, 'red')">Web Design</button>
+        <button class="tablink" onclick="openPage('develop', this, 'green')" id="defaultOpen">Development</button>
+        <button class="tablink" onclick="openPage('host', this, 'blue')">Hosting</button>
+        <button class="tablink" onclick="openPage('upgrade', this, 'orange')">Upgrading</button>
+
+        <aside id="right" class="aside">
+            <section class="box" onclick="openPage('develop', this, 'rgba(0, 128, 0, 0.486)')">
+                <h3>Development</h3>
+                <img class="imgAside" src="images/development.jpg" alt="Development"/>
+            </section> 
+            <section class="box" onclick="openPage('upgrade', this, 'rgba(255, 166, 0, 0.486)')">
+                <h3>Upgrade</h3>
+                <img class="imgAside" src="images/update.jpg" alt="Upgrade"/>
+            </section>  
+        </aside>
+        <div id="design" class="tabcontent">
+             <p>Loren Ipsum, what what, what what..</p>
+        </div>
+
+        <div id="develop" class="tabcontent">
+          <p>Loren Ipsum, what what, what what..</p>
+        </div>
+
+        <div id="host" class="tabcontent">
+          <p>Loren Ipsum, what what, what what..</p>
+        </div>
+
+        <div id="upgrade" class="tabcontent">
+         <p>Loren Ipsum, what what, what what..</p>
+        </div>
+    </section>       
+</section>
+<!-- #endregion -->
+
+<!-- #region Banner-->
+<section class="banner">
+    <section id="entle"><h1><marquee left>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspBS Designs
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    </marquee></h1></section>
+    <section id="Address"><h4><marquee left>
+        Tel : 0737572766 | Email : bsdesigns@gmail.com | Address : 45A Long Street Kempton Park
+    </marquee></h1></section>
+</section>
+</section>
+<!-- #endregion -->
+
+<!-- #region Footer-->
+    <footer>
+        <p>
+          &COPY;Copyright 2020. All Rights Reserved
+        </p>
+    </footer>
+    <!-- #endregion -->
+</body>
+</html>
